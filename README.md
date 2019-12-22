@@ -1,4 +1,5 @@
 # 4EJ - document discovery
+![screenshot](./4ej1.png)
 
 ## About
 4EJ (pronounced "forage") is a web app for visually organizing longform information like PDFs and infographics. 
@@ -7,7 +8,6 @@
 - Users can register accounts and upload documents to a global grid
 - Documents are clustered by keywords within the grid
 - Users can search by moving their cursor in the grid or by using the search box
-![screenshot](./4ej1.png)
 
 ## Installation
 - Set up GCP for Storage

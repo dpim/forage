@@ -2,7 +2,7 @@
 ![screenshot](./4ej1.png)
 
 ## About
-4EJ (pronounced "forage") is a web app for visually organizing longform information like PDFs and infographics. Documents are geographically clustered by related keywords. 
+4EJ (pronounced "forage") is a web app for visually organizing longform information like PDFs and infographics. Documents are clustered together by related keywords. 
 
 ### Functionality
 - Users can register accounts and upload documents to a global grid

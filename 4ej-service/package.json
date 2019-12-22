@@ -1,0 +1,24 @@
+{
+  "name": "forage-service",
+  "version": "1.0.0",
+  "description": "service for 4ej app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^4.1.3",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.7",
+    "nodemon": "^1.11.0",
+    "passport": "^0.4.0",
+    "passport-http-bearer": "^1.0.1",
+    "request": "^2.88.0",
+    "router": "^1.3.1"
+  }
+}

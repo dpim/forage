@@ -1,0 +1,186 @@
+.App {
+  text-align: left;
+  margin-left: 0px;
+  margin-right: auto;
+  font-family: Monaco, Menlo, Consolas, monospace;
+  font-weight: 200;
+  font-size: small;
+}
+
+.App * {
+  font-family: Monaco, Menlo, Consolas, monospace;
+  font-weight: 200;
+}
+
+.Header {
+  background: #3CB371;
+  height: 10%;
+  padding: 10px;
+  color: white;
+  overflow: hidden;
+  text-align: left;
+}
+
+.Header * {
+	color: white;
+}
+
+.Jumbo-button {
+  margin-right: 10px;
+}
+
+.Menu-link {
+  color: white;
+  margin-right: 10px;
+}
+
+.Register-link > h3 {
+  color: green;
+  margin-left: 10px;
+}
+
+.Signin-link {
+  color: darkslategray;
+  font-style: italic;
+  margin-left: 10px;
+}
+
+.Legal-section {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.Submit-section {
+  margin-top: 10px;
+}
+
+.Main>a:visited, .Main>a {
+  color: grey;
+}
+
+.Main {
+    padding: 10px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-screenshot {
+  height: 348px;
+  padding: 10px;
+}
+
+.Account-menu {
+  float: right;
+}  
+
+.Main-menu {
+  float: left;
+}  
+
+.Search-term {
+  margin-bottom: 10px;  
+}
+
+.Search-term *  {
+  font-family: Monaco, Menlo, Consolas, monospace;
+  font-weight: 200;
+  font-size: small;
+}
+
+.Canvas-wrapper {
+  outline: solid lightgrey 2px;
+}
+
+.Page-row {
+  margin-bottom: 10px;
+}
+
+.Page {
+  padding: 20px;
+  float: left;
+  width: 100%;
+}
+
+.Fake-nav {
+	width: 20px;
+}
+
+.Secondary-nav-link {
+	opacity: 0.75;
+}
+
+.Validation-err {
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+input[type=checkbox] {
+    display:-block;    
+    vertical-align:middle; 
+}
+
+input[type=file] {
+  width: 200px;
+  height: 80px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: 0;
+}
+
+input[type=file] + label {
+  font-style: italic;
+  min-width: 200px;
+  max-width: 200px;
+  color: grey;
+  background-color: clear;
+  display: inline-block;
+  cursor: pointer;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+h2 {
+  font-stretch: condensed;
+}
+
+img {
+  height: 200px;
+
+}
+
+input {
+  padding: 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+ul { 
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lavender;
+    }
+    .App {
+      width: 100%;
+      height: 100%;
+    }
+}

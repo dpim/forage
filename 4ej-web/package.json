@@ -1,0 +1,45 @@
+{
+  "name": "forage",
+  "version": "5.0.0",
+  "private": true,
+  "description": "forage web app",
+  "scripts": {
+    "start": "webpack-dev-server --devtool eval-source-map --history-api-fallback --open",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "/",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "prop-types": "^15.5.8",
+    "react": "^15.6.1",
+    "react-addons-css-transition-group": "^15.6.0",
+    "react-addons-transition-group": "^15.6.0",
+    "react-dom": "^15.6.1",
+    "react-interactive": "^0.6.5",
+    "react-router-dom": "^4.1.1",
+    "react-transition-group": "^1.1.2",
+    "reactstrap": "^4.8.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "style-loader": "0.18.2",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "main": "webpack.config.js"
+}

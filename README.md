@@ -12,5 +12,5 @@
 ## Installation
 - Set up [GCP Storage]("https://cloud.google.com")
 - Update server-side credentials under `4ej-service/config/secrets`
-- npm install service and web app dependencies with `npm install`
-- npm start service and web app
+- Install service and web app dependencies with `npm install`
+- Run service and web app with `npm start`

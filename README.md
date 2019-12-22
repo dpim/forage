@@ -1,4 +1,4 @@
-# 4EJ - document discovery
+# Forage - visual document exploration
 ![screenshot](./4ej1.png)
 
 ## About
@@ -10,7 +10,7 @@
 - Users can search by moving their cursor in the grid or by using the search box
 
 ## Installation
-- Set up GCP for Storage
+- Set up [GCP Storage]("https://cloud.google.com")
 - Update server-side credentials under `4ej-service/config/secrets`
 - npm install service and web app dependencies with `npm install`
 - npm start service and web app
